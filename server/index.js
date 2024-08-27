@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"https://letslearn-frontend.vercel.app",
+		origin:"https://lets-learn1-frontend.vercel.app/",
 		// credentials:true,
 	})
 );
